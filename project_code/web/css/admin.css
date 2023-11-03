@@ -1,0 +1,180 @@
+#Up{
+    background-color: greenyellow;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 80%;
+    width: 100%;
+    height: 300px;
+}
+body
+{
+background: url(product.jpg); 
+background-position: top;
+background-size: cover;  
+}
+#option_div
+{
+    font-size: 16;
+    width: 75%;
+    height: 420px;
+    background-color : rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    padding: 20px 30px;
+}
+.select_sections
+{
+  background-color: rgb(82, 245, 196);  
+  width: 40%;
+  height: 20%;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 50%;
+  left: 5%;
+  text-align: center;
+  
+}
+.select_sections2
+{
+  background-color: rgb(82, 245, 196);  
+  width: 40%;
+  height: 20%;
+  border-radius: 25px;
+  position: absolute;
+  bottom: 50%;
+  right: 5%;
+  text-align: center;
+  
+}
+.select{
+font-size: 16px;
+text-align: center;
+margin-top: 30px;
+width: 250px;
+height: 40px;
+}
+#select{
+    font-size:18px;
+}
+.labels{
+    font-size: 18px;
+}
+
+#search{
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 40%;
+  left:6%;
+  font-size: 18px;
+}
+.add_file{
+  width:300px;
+  height: 30px;
+  position: absolute;
+  bottom: 20%;
+  left:13%;
+  font-size: 18px;
+}
+.add_file1{
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 19%;
+  left:3%;
+  font-size: 18px;
+}
+.add_file2{
+  width: 150px;
+  height: 30px;
+  position: absolute;
+  bottom: 9%;
+  left:3%;
+  font-size: 18px;
+}
+.add_file3{
+  width: 300px;
+  height: 30px;
+  position: absolute;
+  bottom: 10%;
+  left:13%;
+  font-size: 18px;
+}
+#products_scroll
+{
+  font-size: 16;
+  width: 75%;
+  height: 70%;
+  background-color : rgb(255, 255, 255);
+  top: 60%;
+  left: 55%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 20px 30px;
+  overflow:scroll;
+}
+.button{
+  width: 150px;
+  height: 30px;
+  font-size: 18px;
+}
+#map{
+  height: 650px;
+}
+
+#leaderboard{
+  font-size: 16;
+  width: 50%;
+  height: 500px;
+  background-color : rgb(255, 255, 255);
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 20px 30px;
+}
+
+#header{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#offer_bframe{
+  font-size: 16;
+  width: 75%;
+  height: 70%;
+  background-color : rgb(255, 255, 255);
+  top: 60%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 20px 30px;
+  overflow:scroll;
+}
+#button-container {
+  right: 42%;
+  height: 103px;
+  width: 200px;
+  display: flex; 
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  padding: 20px; 
+  background-color: #000000; 
+}
+
+.tokens {
+  width: 150px;
+  height: 40px;
+  font-size: 18px;
+  margin-bottom: 10px; 
+}
+.up_butts{
+  width: 150px;
+  height:60px;
+  font-Size:16px;
+  padding-Top:5px;
+}

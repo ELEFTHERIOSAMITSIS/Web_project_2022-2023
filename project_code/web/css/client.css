@@ -1,0 +1,136 @@
+#offers_place{
+  font-size: 16;
+  width: 60%;
+  height: 70%;
+  background-color : rgb(255, 255, 255);
+  top: 60%;
+  left:67%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  padding: 20px 30px;
+  overflow:scroll;
+}
+#map{
+    height: 650px;
+  }
+  #Up{
+    background-color: greenyellow;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 80%;
+    width: 100%;
+    height: 300px;
+}
+body
+{
+background: url(product.jpg); 
+background-position: top;
+background-size: cover;  
+}
+.br1{
+    font-size: 16px;
+}
+.select_offer{
+    height: 50px;
+    width: 400px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.submit_button{
+    height: 30px;
+    width:150px;
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+#price{
+    width:100px;
+    height: 30px;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.select_place{
+
+    width:300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 16px; 
+}
+.leaflet-popup-content-wrapper {
+    width: 300px; 
+}
+
+.custom-icon {
+    color: #ff0000; /* Change the color to your preference */
+    font-size: 20px; /* Adjust the font size */
+}
+.rate_buttons{
+    margin-Right: "10px";
+    margin-Left: "20px";
+    width:"100px";
+    height:"30px";
+    font-Size:"16px";
+    padding-Top:"5px";
+}
+.up_butts{
+    width: 150px;
+    height:60px;
+    font-Size:16px;
+    padding-Top:5px;
+}
+
+#name-box {
+    position: absolute;
+    top: 0%;
+    right: 52%;
+    height: 103px;
+    width: 230px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+    background-color: #000000;
+    color: white;
+    font-size: larger;
+}
+
+#button-container {
+    position: absolute;
+    top: 0%;
+    right: 32%;
+    height: 103px;
+    width: 230px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 20px; 
+    background-color: #000000; 
+}
+
+.button {
+    width: 150px;
+    height: 60px;
+    font-size: 18px;
+    margin-bottom: 10px; 
+}
+
+#messages {
+    position: absolute;
+    bottom: 6%;
+    right: 6%;
+    height: 50px;
+    width: 220px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center; 
+    padding: 20px; 
+    background-color: white;
+    color: white;
+    font-size: larger;
+}
