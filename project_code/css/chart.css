@@ -1,0 +1,57 @@
+.label {
+    display: inline-block;
+    margin-right: 10px;
+    font-size: larger;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 1);
+}
+
+.select {
+    display: inline-block;
+    font-size: large;
+    padding: 5px;
+    border: 1px rgba(0, 0, 0, 1);
+    border-radius: 3px;
+}
+
+.button {
+    display: inline-block;
+    font-size: large;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 1);
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+body
+{
+background: url(product.jpg); 
+background-position: top;
+background-size: cover;  
+}
+
+#box {
+    max-width: 100%;
+    max-height: 750px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+#offerChart {
+    max-width: 100%;
+    max-height: 580px;
+}
+
+.text {
+    color: black;
+}
+
+form {
+    padding: 25px;
+    background-color: greenyellow;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
